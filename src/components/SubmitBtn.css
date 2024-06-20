@@ -1,0 +1,19 @@
+.submitBtn {
+  border: none;
+  background-color: rgb(220, 220, 220);
+  transition: background-color 0.2s ease;
+}
+
+.submitBtn:hover {
+  background-color: rgb(200, 200, 200);
+  box-sizing: border-box;
+}
+
+.submitBtn:active {
+  background-color: rgb(170, 170, 170);
+}
+
+.submitBtn:focus {
+  outline: none;
+}
+

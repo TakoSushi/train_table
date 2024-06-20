@@ -1,0 +1,28 @@
+input {
+  max-width: 200px;
+  height: 30px;
+  border-radius: .5rem;
+}
+
+.inputCeil {
+  width: 200px;
+  height: 80px;
+  width: min-content;
+}
+
+.errorMessage {
+  font-size: 0.6rem;
+}
+
+.errorMessage > p {
+  margin: 0;
+  text-align: start;
+}
+
+.valid {
+  display: none;
+}
+
+.invalid {
+  color: red;
+}
